@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".OpstiPodaciFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="250sp"
+            android:layout_height="75sp"
+            android:layout_marginBottom="10sp"
+            android:background="#1e1d1a"
+            android:padding="15sp"
+            android:src="@drawable/logo" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="3sp"
+            android:layout_marginTop="3sp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/labelaOpstiPodaci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5sp"
+            android:text="Opšti podaci"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider17"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="10sp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@android:color/black" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageImeIPrezime"
+                        android:layout_width="10sp"
+                        android:layout_height="124dp"
+                        android:layout_marginLeft="5sp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/imeprezime" />
+
+                    <TextView
+                        android:id="@+id/textImeIPrezime"
+                        android:layout_width="90sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Ime i prezime:"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelImeIPrezime"
+                        android:layout_width="120sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Stefan Ivić"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider7"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10sp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageMestoRodjenja"
+                        android:layout_width="10sp"
+                        android:layout_height="124dp"
+                        android:layout_marginLeft="5sp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/mestorodjenja" />
+
+                    <TextView
+                        android:id="@+id/textMestoRodjenja"
+                        android:layout_width="90sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Mesto Rodjenja:"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaMestoRodjenja"
+                        android:layout_width="120sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Priština"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider8"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10sp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageTelefon"
+                        android:layout_width="10sp"
+                        android:layout_height="124dp"
+                        android:layout_marginLeft="5sp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/phone" />
+
+                    <TextView
+                        android:id="@+id/textTelefon"
+                        android:layout_width="90sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Telefon:"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaTelefon"
+                        android:layout_width="120sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:autoLink="phone"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="+381-66-020-563"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider9"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10sp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageEMail"
+                        android:layout_width="10sp"
+                        android:layout_height="124dp"
+                        android:layout_marginLeft="5sp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/mail" />
+
+                    <TextView
+                        android:id="@+id/textEMail"
+                        android:layout_width="90sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="E-mail:"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaEMail"
+                        android:layout_width="120sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:autoLink="email"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="stefan.ivic.17@singimail.rs"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider10"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10sp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageAdresa"
+                        android:layout_width="10sp"
+                        android:layout_height="124dp"
+                        android:layout_marginLeft="5sp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/address" />
+
+                    <TextView
+                        android:id="@+id/textAdresa"
+                        android:layout_width="90sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Adresa:"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaAdresa"
+                        android:layout_width="120sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Josifa Šnersona 2/3 - 34000 Kragujevac"
+                        android:textColor="@android:color/black"
+                        android:textColorLink="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

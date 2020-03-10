@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05435a"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="@android:color/holo_orange_light"
+            android:padding="15sp"
+            app:srcCompat="@drawable/logo" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10sp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageOpstiPodaci"
+                        android:layout_width="25sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.3"
+                        app:srcCompat="@drawable/about" />
+
+                    <TextView
+                        android:id="@+id/labelaOpstiPodaci"
+                        android:layout_width="135sp"
+                        android:layout_height="75sp"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="10sp"
+                        android:text="Opšti podaci"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10sp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageObrazovanje"
+                        android:layout_width="25sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.3"
+                        app:srcCompat="@drawable/education" />
+
+                    <TextView
+                        android:id="@+id/labelaObrazovanje"
+                        android:layout_width="135sp"
+                        android:layout_height="75sp"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="10sp"
+                        android:text="Obrazovanje"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10sp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageRadnoIskustvo"
+                        android:layout_width="25sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.3"
+                        app:srcCompat="@drawable/iskustvo" />
+
+                    <TextView
+                        android:id="@+id/labelaRadnoIskustvo"
+                        android:layout_width="135sp"
+                        android:layout_height="75sp"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="10sp"
+                        android:text="Radno Iskustvo"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10sp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageTehnickaZnanja"
+                        android:layout_width="25sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.3"
+                        app:srcCompat="@drawable/knowledge" />
+
+                    <TextView
+                        android:id="@+id/labelaTehnickaZnanja"
+                        android:layout_width="135sp"
+                        android:layout_height="75sp"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="10sp"
+                        android:text="Tehnička znanja"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10sp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageFotografije"
+                        android:layout_width="25sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="0.3"
+                        app:srcCompat="@drawable/pictures" />
+
+                    <TextView
+                        android:id="@+id/labelaFotografije"
+                        android:layout_width="135sp"
+                        android:layout_height="75sp"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="10sp"
+                        android:text="Fotografije"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".RadnoIskustvoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#710000"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="250sp"
+            android:layout_height="75sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10sp"
+            android:background="#1e1d1a"
+            android:padding="15sp"
+            android:src="@drawable/logo" />
+
+        <View
+            android:id="@+id/divider19"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider"
+            android:foreground="@android:color/black" />
+
+        <TextView
+            android:id="@+id/labelaRadnoIskustvo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5sp"
+            android:text="Radno Iskustvo"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider16"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="5sp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@android:color/black" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="0.3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaPozicija"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Volonter"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaFirma"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Omladina JAZAS-a"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaGodina"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2012 - "
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider27"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_weight="0.3"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaPozicija2"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Promolider"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaFirma2"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="NS Promoteam"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaGodina2"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2014 - 2016"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider21"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaPozicija3"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Web Application  Testing"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaFirma3"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Comtrade"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaGodina3"
+                        android:layout_width="0dp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Praksa - 2016"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider22"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaPozicija4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Nastavnik Engleskog jezika"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaFirma4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="TutorABC"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaGodina4"
+                        android:layout_width="match_parent"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2016 - "
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

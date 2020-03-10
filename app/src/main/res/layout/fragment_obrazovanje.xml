@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ObrazovanjeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="250dp"
+            android:layout_height="75sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10sp"
+            android:background="#1e1d1a"
+            android:padding="15sp"
+            android:src="@drawable/logo" />
+
+        <View
+            android:id="@+id/divider14"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="5sp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@android:color/black" />
+
+        <TextView
+            android:id="@+id/labelaObrazovanje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5sp"
+            android:text="Obrazovanje"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider15"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="10sp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@android:color/black" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textSrednjaSkola"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Srednja škola:"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaSrednjaSkola"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text='Srednja medicinska škola - "Sestre Ninković" - zubni tehničar'
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider12"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textTEFL"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="TEFL Cambridge"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaTEFL"
+                        android:layout_width="0sp"
+                        android:layout_height="100sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="TEFL Certificate"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider13"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textTEYL"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Global TEFL"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaTEYL"
+                        android:layout_width="0sp"
+                        android:layout_height="100sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="TEYL Certificate"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider28"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVisokoObrazovanje"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Visoko obrazovanje:"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaVisokoObrazovanje"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Visoka tehnička škola strukovnih studija -Kragujevac - Informatika 2014-2017"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider23"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVisokoObrazovanje2"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Visoko obrazovanje:"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaVisokoObrazovanje2"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Univerzitet Singidunum - Fakultet za informatiku i računarsvto - 2017 - "
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

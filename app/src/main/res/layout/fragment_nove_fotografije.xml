@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoveFotografijeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#013a15"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="250sp"
+            android:layout_height="75sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10sp"
+            android:background="#1e1d1a"
+            android:padding="15sp"
+            android:src="@drawable/logo" />
+
+        <View
+            android:id="@+id/divider20"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@android:color/black" />
+
+        <TextView
+            android:id="@+id/labelaFotografije"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5sp"
+            android:text="Fotografije"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider18"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_margin="10sp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@android:color/black" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300sp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageFotografija"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:padding="10sp"
+                        android:src="@drawable/slika1" />
+
+                    <ImageView
+                        android:id="@+id/imageFotografija2"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:padding="25sp"
+                        android:src="@drawable/slika2" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider25"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginBottom="5sp"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageFotografija3"
+                        android:layout_width="0sp"
+                        android:layout_height="250sp"
+                        android:layout_margin="10sp"
+                        android:layout_weight="1"
+                        android:padding="25sp"
+                        android:src="@drawable/slika3" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

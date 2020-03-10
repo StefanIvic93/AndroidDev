@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".TehnickaZnanjaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="250sp"
+            android:layout_height="75sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10sp"
+            android:background="#1e1d1a"
+            android:padding="15sp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/labelaTehnickaZnanja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5sp"
+            android:text="Tehnička znanja"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:id="@+id/divider30"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_weight="0.3"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="0.3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaTehnickaZnanja1"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Jezici:"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaOpis"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:maxLines="10"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Engleski \n Nemacki"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaNivo"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:maxLines="10"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Napredni nivo \n Početni nivo"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider29"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_weight="0.3"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaTehnickaZnanja2"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Programski jezici:"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaOpis2"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:maxLines="10"
+                        android:text="Java \n JavaScript \n C# \n PHP "
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaNivo2"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:maxLines="10"
+                        android:text="Srednji nivo \n Početni nivo \n Srednji nivo \n Početni nivo    "
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider11"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_weight="0.3"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="0.3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaTehnickaZnanja3"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Baze podataka:"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaOpis3"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:maxLines="10"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="MySQL \n Access"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaNivo3"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:maxLines="10"
+                        android:text="Srednji nivo \n Srednji nivo"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider31"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_weight="0.3"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="0.3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaTehnickaZnanja4"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Razvojna okruženja:"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaOpis4"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Visual Studio \n NetBeans "
+                        android:maxLines="10"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaNivo4"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:maxLines="10"
+                        android:text="Srednji nivo \n Srednji nivo"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider32"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_weight="0.3"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="0.3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelaTehnickaZnanja5"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Operativni sistemi:"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelaOpis5"
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Windows \n Linux"
+                        android:maxLines="10"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/labelaNivo5"
+                        android:layout_width="0sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="5sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:maxLines="10"
+                        android:text="Napredni nivo \n Srednji nivo"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider33"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_weight="0.3"
+                    android:background="?android:attr/listDivider"
+                    android:foreground="@android:color/black" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>
